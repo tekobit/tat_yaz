@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto:wght@500&display=swap');
+
+
+body {
+    background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	width: 100vw;
+	margin: 0;
+	overflow-x: hidden;
+	top: 0;
+}
+
+.container {
+	background-color: rgb(37, 37, 37);
+	height: 100%;
+	width: 75vw;
+	margin: 0 auto;
+	position: relative;
+	vertical-align: top;
+}
+
+h1{
+    
+    margin: 0 auto;
+    text-align: center;
+    border-bottom-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border-bottom: 3px solid crimson ;
+    padding-bottom: 3px;
+    
+    z-index: 3;
+
+}
+
+
+.text > h1{
+    font-family: 'Roboto', sans-serif;;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.text {
+	padding-top: 10px;
+	margin-left: 75px;
+	color: #eee;
+	font-size: 17px;
+	font-family: 'Balsamiq Sans', cursive;
+    margin-right: 33px;
+    z-index: 2;
+}
+
+.text > p {
+	margin: 0;
+}
+
+
+.box {
+	top: 5px;
+	bottom: 0;
+	position: sticky;
+    width:90vw;
+    height: 50px;
+    display: flex;
+    background: transparent;
+    z-index: 100;
+	overflow: hidden;
+}
+
+.bars {
+    margin-left: 600px;
+    display: flex;
+    position: absolute;
+    padding-bottom: 0px;
+    height: 50px;
+
+
+}
+
+.podcherk {
+    z-index: 999999;
+    display: flex;
+    height: 5px;
+    width: 50vw;
+    margin-left: 795px;
+    margin-top: 40px;
+	position: absolute;
+}
+
+.podol {
+    z-index: 999999;
+    position: relative;
+    height: 5px;
+    border-top: 1px solid rgb(23, 133, 109);
+    margin-left: 35px;
+    opacity: 0;
+    transition: opacity 0.7s;
+}
+
+.img {
+    background-image: url(../images/Flag_of_Tatarstana.jpg);
+    background-size: cover;
+    width: 60px;
+    height: 90%;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.asd{
+    margin-top: 30px;
+    margin-left: -60px;
+
+
+    width: 1140PX;
+    z-index: 10;
+}
+
+.Navigation_Bar {
+    font-size: 20px;
+    color: #eee;
+    line-height: 1.257;
+    text-align: left;
+    z-index: 21;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(23, 133, 109);
+    border-width: 0px;
+    opacity: 1;
+	color: #eee;
+}
+
+
+a:hover {
+    transition: all 2s ease-in-out;
+}
+
+a:visited {
+    color: #eee;
+}
+
+.podol.qw {
+    width: 79.44px;
+}
+.podol.w {
+    width: 90px;
+}
+.podol.e {
+    width: 137px;
+}   
+.podol.r {
+    width: 71.5px;
+}

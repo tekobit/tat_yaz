@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto:wght@500&display=swap%27');
+
+.head{
+    background-color: rgb(90, 141, 90);
+}
+
+
+.body{
+    margin: 0;
+
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto:wght@500&display=swap%27');
+
+* {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+*,
+*::after
+*::before {
+        box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.intro{
+    width: 100%;
+    height: 100vh;
+
+    background: url("../images/intro.jpg") center no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+
+.header{
+    width: 100%;
+    padding-top: 30px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.img {
+    background-image: url(/images/Flag_of_Tatarstana.jpg);
+    background-size: cover;
+    width: 50px;
+    height: 90%;
+    border-radius: 15px;
+    margin-left: 0px;
+}
+
+.ddd{
+    margin-left: 20px;
+}
+
+
+.header__liner{
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+}
+
+.nav{
+    font-size: 15px;
+    padding: 10px 0 0 350px;
+    text-transform: uppercase;
+    color: rgb(23, 133, 109);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 6px;
+    position: relative;
+    color: #000;
+    text-decoration: none;
+
+    transition: color 0.5s linear;
+}
+
+
+
+.nav__link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+
+    background-color: rgba(235, 86, 86, 0.185);
+    opacity: 0;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity 0.5s linear
+
+}
+
+.nav__link:hover{
+    color: rgb(255, 117, 117);
+}
+
+.nav__link:hover:after{
+    opacity: 1;
+}
+
+
+
+.ddd::after:hover{
+    opacity: 3;
+}
+
+.rutik{
+    width: 175px;
+    border-radius: 9px;
+    box-shadow: 4px 8px 16px rgba(0,0,0,025);
+    margin: 100px 0 0 10px ; 
+}
+
+.text{
+    margin: -250px 200px 0 450px;
+    font-size: 20px;
+}
+
+.textt{
+    font-size: 18px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
